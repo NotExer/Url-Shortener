@@ -37,5 +37,5 @@ Sigue estos pasos para ejecutar el proyecto localmente:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/tu-usuario/linkshort-pro.git](https://github.com/tu-usuario/linkshort-pro.git)
+git clone [https://github.com/NotExer/linkshort-pro.git](https://github.com/NotExer/linkshort-pro.git)
 cd linkshort-pro
