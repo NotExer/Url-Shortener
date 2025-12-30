@@ -37,5 +37,5 @@ Sigue estos pasos para probar el proyecto en tu máquina local:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/NotExer/Url-Shortener.git](https://github.com/NotExer/Url-Shortener.git)
+git clone https://github.com/NotExer/Url-Shortener
 cd Url-Shortener
