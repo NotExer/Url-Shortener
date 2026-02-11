@@ -22,7 +22,7 @@ async def read_index():
         return f.read()
 
 @app.post("/shorten")
-async def shorten_url(original_url: str, request: Request):
+async def LinkShort(original_url: str, request: Request):
     code = generate_code()
     urls[code] = original_url
     base_url = str(request.base_url)
