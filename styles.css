@@ -37,8 +37,10 @@ img{display:block;max-width:100%;height:auto}
 .col-span-1{grid-column:span 1/span 1}
 .min-h-screen{min-height:100vh}
 .w-full{width:100%}
+.w-5{width:1.25rem}
 .w-6{width:1.5rem}
 .w-10{width:2.5rem}
+.h-5{height:1.25rem}
 .h-6{height:1.5rem}
 .h-10{height:2.5rem}
 .h-16{height:4rem}
@@ -224,3 +226,9 @@ img{display:block;max-width:100%;height:auto}
 @media(min-width:1024px){
   .lg\:px-8{padding-left:2rem;padding-right:2rem}
 }
+
+/* ===== SVG icon utilities ===== */
+.icon{display:inline-block;vertical-align:middle;fill:currentColor}
+.icon-sm{width:.875rem;height:.875rem}
+.icon-base{width:1.25rem;height:1.25rem}
+.icon-lg{width:1.5rem;height:1.5rem}

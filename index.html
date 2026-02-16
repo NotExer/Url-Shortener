@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LinkShort Pro 2026</title>
+    <meta name="description" content="Acorta tus enlaces largos en segundos con LinkShort Pro. Gratis, rápido y sin límites. Ideal para redes sociales, blogs y presentaciones.">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 </head>
@@ -26,7 +27,7 @@
 
                 <!-- Desktop Menu -->
                 <div class="hidden md:block">
-                    <div class="ml-10 flex i tems-baseline space-x-4">
+                    <div class="ml-10 flex items-baseline space-x-4">
                         <a href="index.html"
                             class="text-white bg-slate-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">Inicio</a>
 
@@ -39,8 +40,9 @@
 
                 <!-- Mobile menu button -->
                 <div class="md:hidden">
-                    <button type="button" onclick="toggleMobileMenu()" aria-label="Abrir menú de navegación" class="text-slate-400 hover:text-white focus:outline-none">
-                        <i class="fa-solid fa-bars text-2xl" id="menuIcon"></i>
+                    <button type="button" onclick="toggleMobileMenu()" aria-label="Abrir menú de navegación"
+                        class="text-slate-400 hover:text-white focus:outline-none">
+                        <img src="img/bars-solid.svg" alt="" class="icon icon-lg" id="menuIcon">
                     </button>
                 </div>
             </div>
@@ -77,17 +79,17 @@
                     redes sociales, blogs o presentaciones.
                 </p>
                 <div class="flex flex-wrap justify-center gap-4 mt-6">
-                    <div class="flex items-center gap-2 text-slate-500 text-sm">
+                    <div class="flex items-center gap-2 text-slate-400 text-sm">
                         <span
                             class="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-white">1</span>
                         <span>Pega tu link</span>
                     </div>
-                    <div class="flex items-center gap-2 text-slate-500 text-sm">
+                    <div class="flex items-center gap-2 text-slate-400 text-sm">
                         <span
                             class="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-white">2</span>
                         <span>Genera</span>
                     </div>
-                    <div class="flex items-center gap-2 text-slate-500 text-sm">
+                    <div class="flex items-center gap-2 text-slate-400 text-sm">
                         <span
                             class="w-6 h-6 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-white">3</span>
                         <span>¡Listo!</span>
@@ -100,11 +102,11 @@
                 <div class="relative group">
                     <input type="url" id="urlInput" placeholder="Pega tu link largo aquí..."
                         class="w-full bg-slate-900 border border-slate-700 rounded-2xl py-4 px-6 focus:ring-2 focus:ring-cyan-500 focus:border-transparent outline-none transition-all text-lg pl-14 pr-24">
-                    <i class="fa-solid fa-link absolute left-6 top-5 text-slate-500 text-xl"></i>
+                    <img src="img/link-solid-full.svg" alt="" class="icon icon-base absolute left-6 top-5 text-slate-500">
 
                     <button onclick="pasteFromClipboard()"
                         class="absolute right-3 top-2 bottom-2 bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-cyan-400 px-4 rounded-xl text-sm font-bold flex items-center gap-2 transition-all border border-slate-700 hover:border-cyan-500/50">
-                        <i class="fa-solid fa-paste"></i>
+                        <img src="img/paste-solid.svg" alt="" class="icon icon-sm">
                         Pegar
                     </button>
                 </div>
@@ -123,7 +125,7 @@
                     <span id="shortUrl" class="text-cyan-400 text-xl font-mono truncate"></span>
                     <button onclick="copyToClipboard()"
                         class="bg-slate-700 hover:bg-slate-600 p-3 rounded-xl transition-colors">
-                        <i class="fa-regular fa-copy text-xl"></i>
+                        <img src="img/copy-regular.svg" alt="Copiar" class="icon icon-base">
                     </button>
                 </div>
             </div>
@@ -131,11 +133,11 @@
             <!-- History -->
             <div class="mt-12">
                 <h2 class="text-xl font-semibold mb-4 flex items-center gap-2">
-                    <i class="fa-solid fa-clock-rotate-left text-slate-500"></i> Historial Reciente
+                    <img src="img/clock-rotate-left-solid-full.svg" alt="" class="icon icon-base text-slate-500"> Historial Reciente
                 </h2>
                 <div id="historyList" class="space-y-3 max-h-60 overflow-y-auto pr-2">
                     <!-- Se llenará con JS -->
-                    <p class="text-slate-500 text-center italic py-4"></p>
+                    <p class="text-slate-400 text-center italic py-4"></p>
                 </div>
             </div>
         </div>
@@ -151,7 +153,7 @@
                         <img src="img/favicon.svg" alt="LinkShort Logo" class="w-10 h-10 object-contain">
                         <span class="text-xl font-bold text-white">LinkShort</span>
                     </div>
-                    <p class="text-slate-400 text-sm leading-relaxed ">
+                    <p class="text-slate-400 text-sm leading-relaxed">
                         Reduciendo la distancia entre tú y tu audiencia, un enlace a la vez. Potencia tu presencia
                         digital con LinkShort.
                     </p>
@@ -173,15 +175,15 @@
                     <div class="flex gap-4">
                         <a href="https://x.com/Not_Exer" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
                             class="w-10 h-10 bg-slate-700 hover:bg-cyan-600 flex items-center justify-center rounded-xl transition-all group">
-                            <i class="fa-brands fa-twitter group-hover:scale-110 transition-transform"></i>
+                            <img src="img/twitter-brands-solid-full.svg" alt="Twitter" class="w-5 h-5 group-hover:scale-110 transition-transform">
                         </a>
                         <a href="https://github.com/NotExer" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
                             class="w-10 h-10 bg-slate-700 hover:bg-cyan-600 flex items-center justify-center rounded-xl transition-all group">
-                            <i class="fa-brands fa-github group-hover:scale-110 transition-transform"></i>
+                            <img src="img/github-brands-solid-full.svg" alt="GitHub" class="w-5 h-5 group-hover:scale-110 transition-transform">
                         </a>
                         <a href="https://www.linkedin.com/in/samuel-gomez-restrepo-717238191/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
                             class="w-10 h-10 bg-slate-700 hover:bg-cyan-600 flex items-center justify-center rounded-xl transition-all group">
-                            <i class="fa-brands fa-linkedin-in group-hover:scale-110 transition-transform"></i>
+                            <img src="img/linkedin-brands-solid-full.svg" alt="LinkedIn" class="w-5 h-5 group-hover:scale-110 transition-transform">
                         </a>
                     </div>
                 </div>
@@ -189,11 +191,12 @@
 
             <div
                 class="border-t border-slate-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
-                <p class="text-slate-500 text-sm">
+                <p class="text-slate-400 text-sm">
                     &copy; 2026 LinkShort Pro. Todos los derechos reservados.
                 </p>
-                <p class="text-slate-500 text-sm flex items-center justify-center gap-2">
-                    Hecho por <span class="text-slate-300 font-bold">notexer</span>
+                <p class="text-slate-400 text-sm flex items-center justify-center gap-2">
+                    Hecho con <img src="img/heart-solid.svg" alt="amor" class="icon icon-sm text-red-500 animate-pulse"> por <span
+                        class="text-slate-300 font-bold">notexer</span>
                 </p>
             </div>
         </div>
@@ -222,7 +225,6 @@
 
                 // Agregar al historial
                 const history = document.getElementById('historyList');
-                // Limpiar mensaje de "Aún no hay" si existe (aunque en el HTML original estaba vacío o con texto placeholder)
                 if (history.children.length === 1 && history.children[0].tagName === 'P') {
                      history.innerHTML = '';
                 }
@@ -232,10 +234,10 @@
                 item.innerHTML = `
                     <div class="truncate pr-4">
                         <p class="text-cyan-400 font-bold">/${code}</p>
-                        <p class="text-xs text-slate-500 truncate">${input.value}</p>
+                        <p class="text-xs text-slate-400 truncate">${input.value}</p>
                     </div>
-                    <a href="${short}" target="_blank" class="p-2 hover:bg-slate-600 rounded-lg transition-colors">
-                        <i class="fa-solid fa-external-link-alt text-slate-400 text-xs"></i>
+                    <a href="${short}" target="_blank" aria-label="Abrir enlace" class="p-2 hover:bg-slate-600 rounded-lg transition-colors">
+                        <img src="img/external-link-solid.svg" alt="" class="icon icon-sm text-slate-400">
                     </a>
                 `;
                 history.prepend(item);
@@ -268,10 +270,10 @@
 
             if (menu.classList.contains('max-h-0')) {
                 menu.classList.replace('max-h-0', 'max-h-96');
-                icon.classList.replace('fa-bars', 'fa-xmark');
+                icon.src = 'img/xmark-solid.svg';
             } else {
                 menu.classList.replace('max-h-96', 'max-h-0');
-                icon.classList.replace('fa-xmark', 'fa-bars');
+                icon.src = 'img/bars-solid.svg';
             }
         }
     </script>

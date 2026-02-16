@@ -23,6 +23,10 @@
     ],
     "routes": [
         {
+            "src": "/shorten",
+            "dest": "app.py"
+        },
+        {
             "src": "/questions.html",
             "dest": "/questions.html"
         },
