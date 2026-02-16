@@ -6,16 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntas Frecuentes - LinkShort Pro</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/regular.min.css">
-    </noscript>
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 </head>
 
@@ -47,7 +37,7 @@
 
                 <!-- Mobile menu button -->
                 <div class="md:hidden">
-                    <button type="button" onclick="toggleMobileMenu()"
+                    <button type="button" onclick="toggleMobileMenu()" aria-label="Abrir menú de navegación"
                         class="text-slate-400 hover:text-white focus:outline-none">
                         <i class="fa-solid fa-bars text-2xl" id="menuIcon"></i>
                     </button>
@@ -201,15 +191,15 @@
                 <div>
                     <h3 class="text-white font-bold mb-4 uppercase text-xs tracking-widest">Conecta</h3>
                     <div class="flex gap-4">
-                        <a href="https://x.com/Not_Exer" target="_blank" rel="noopener noreferrer"
+                        <a href="https://x.com/Not_Exer" target="_blank" rel="noopener noreferrer" aria-label="Twitter"
                             class="w-10 h-10 bg-slate-700 hover:bg-cyan-600 flex items-center justify-center rounded-xl transition-all group">
                             <i class="fa-brands fa-twitter group-hover:scale-110 transition-transform"></i>
                         </a>
-                        <a href="https://github.com/NotExer" target="_blank" rel="noopener noreferrer"
+                        <a href="https://github.com/NotExer" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
                             class="w-10 h-10 bg-slate-700 hover:bg-cyan-600 flex items-center justify-center rounded-xl transition-all group">
                             <i class="fa-brands fa-github group-hover:scale-110 transition-transform"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/samuel-gomez-restrepo-717238191/" target="_blank" rel="noopener noreferrer"
+                        <a href="https://www.linkedin.com/in/samuel-gomez-restrepo-717238191/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
                             class="w-10 h-10 bg-slate-700 hover:bg-cyan-600 flex items-center justify-center rounded-xl transition-all group">
                             <i class="fa-brands fa-linkedin-in group-hover:scale-110 transition-transform"></i>
                         </a>
