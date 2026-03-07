@@ -1,4 +1,4 @@
-# ⚡ LinkShort Pro
+# LinkShort Pro
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
@@ -8,19 +8,19 @@
 
 ---
 
-## 📺 Preview
+## Preview
 
-**🌐 Visita el sitio:**  [https://link-short-pro.vercel.app](https://link-short-pro.vercel.app)
+**Visita el sitio:**  [https://link-short-pro.vercel.app](https://link-short-pro.vercel.app)
 
 
-## ✨ Características
+##  Características
 
-* 🚀 **Backend de alto rendimiento:** Construido con FastAPI para una latencia mínima.
-* 🎨 **Interfaz Premium:** Diseño oscuro (Dark Mode) estilizado con Tailwind CSS y animaciones fluidas.
-* 📱 **Mobile First:** Totalmente responsivo y adaptado para cualquier dispositivo.
-* 📋 **UX Optimizada:** Funciones de copiar al portapapeles y pegado automático con un clic.
-* 📜 **Historial Dinámico:** Visualiza tus enlaces acortados durante la sesión actual.
-* 🔀 **Redirección Inteligente:** Sistema de códigos alfanuméricos únicos de 6 caracteres.
+*  **Backend de alto rendimiento:** Construido con FastAPI para una latencia mínima.
+*  **Interfaz Premium:** Diseño oscuro (Dark Mode) estilizado con Tailwind CSS y animaciones fluidas.
+*  **Mobile First:** Totalmente responsivo y adaptado para cualquier dispositivo.
+*  **UX Optimizada:** Funciones de copiar al portapapeles y pegado automático con un clic.
+*  **Historial Dinámico:** Visualiza tus enlaces acortados durante la sesión actual.
+*  **Redirección Inteligente:** Sistema de códigos alfanuméricos únicos de 6 caracteres.
 
 ---
 
@@ -36,7 +36,7 @@
 
 ---
 
-## 🚀 Instalación y Uso
+##  Instalación y Uso
 
 Sigue estos pasos para probar el proyecto en tu máquina local:
 
